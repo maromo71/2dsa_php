@@ -26,7 +26,7 @@
         for($i = 0; $i < 10; $i++){//linhas
             for($j = 0; $j < 10; $j++){ //colunas
                 if($p1 == $tabuleiro[$i][$j] || $p2 == $tabuleiro[$i][$j]){
-                    printf("[%3d]*", $tabuleiro[$i][$j]);//impressao
+                    printf("[%3d]*", $tabuleiro[$i][$j]);//impressao com *
                 }else{
                     printf("[%3d] ", $tabuleiro[$i][$j]);//impressao
                 }
