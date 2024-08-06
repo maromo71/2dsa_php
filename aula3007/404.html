@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página não encontrada</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Sua Empresa</h1>
+        </div>
+    </header>
+    <main class="flex-grow flex items-center justify-center">
+        <div class="text-center">
+            <img src="https://via.placeholder.com/400x300?text=404+Not+Found" alt="Página não encontrada" class="mx-auto mb-8">
+            <h1 class="text-4xl font-bold mb-4">Página não encontrada</h1>
+            <p class="text-lg mb-4">Desculpe, a página que você está procurando não existe.</p>
+            <a href="index.php" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Voltar ao site</a>
+        </div>
+    </main>
+    <footer class="bg-blue-600 text-white py-4 mt-auto">
+        <div class="container mx-auto text-center">
+            <p>&copy; <?= date('Y') ?> Sua Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
